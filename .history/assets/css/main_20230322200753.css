@@ -1,0 +1,110 @@
+.app{
+    height: 1000px;
+    background-color: rgb(255, 253, 249);
+}
+
+.header{
+    height: 280px;
+    margin: 0 50px;
+}
+
+.navbar{
+    height: 60px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar__head-icon {
+    font-size: 2rem;
+    margin-right: 8px;
+}
+
+.navbar__name {
+    font-size: 2rem;
+    
+}
+
+.navbar__head {
+    display: flex;
+}
+
+.navbar__head:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.navbar__list {
+    display: flex;
+    list-style: none;
+    font-size: 1.4rem;
+}
+
+.navbar__list-item {
+    padding: 0 16px;
+    line-height: 60px;
+}
+
+.navbar__list-item:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.navbar__list-item-link {
+    color: #000;
+    text-decoration: none;
+}
+
+.navbar__list-item-icon{
+    font-size: 2rem;
+    padding-right: 4px;
+}
+
+
+.intro {
+    display: flex;
+    margin-top: 50px;
+}
+
+.intro__img {
+    width: 30%;
+    height: 50px;
+}
+
+.intro__img-image {
+    width: 100%;
+    background-size:cover;
+}
+
+.intro__text{
+    padding-left: 40px;
+}
+
+.intro__head {
+    font-size: 3rem;
+}
+
+.intro__des {
+    font-size: 1.8rem;
+    padding: 10px 250px 0 0;
+    line-height: 2.4rem;
+}
+
+
+/* Grid */
+.grid {
+    background-color: rgb(255, 249, 239);
+    height: 1000px;
+    display: flex;
+}
+.content {
+    /* width: 60%; */
+    border: 1px solid #000;
+    height: 600px;
+    flex: 1;
+}
+.sitebar {
+    /* width: 40%; */
+    flex: 2;
+}
